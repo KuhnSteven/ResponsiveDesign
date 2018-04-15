@@ -39,7 +39,6 @@ article {
 /* MIXINS */
 /* PARTIAL #2 */
 img {
-  border-style: double;
   margin: 10px;
   padding: 3px;
   height: auto;
@@ -73,6 +72,9 @@ html {
   display: none; }
 
 @media only screen and (min-width: 320px) and (max-width: 800px) {
+  #primary-nav-toggle {
+    display: flex;
+    justify-content: flex-end; }
   #primary-nav-toggle a.open-primary-nav {
     display: inline-block; }
   #primary-nav:target #primary-nav-items {
@@ -87,25 +89,16 @@ html {
   #result {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin: 1px; }
   /* End of mobile media rules */ }
 
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
-  #primary-nav-toggle a.open-primary-nav {
-    display: inline-block; }
-  #primary-nav:target #primary-nav-items {
-    display: inline-block; }
-  #desktop-nav {
-    display: none; }
-  /* Hide the open button, show the close button */
-  #primary-nav:target #primary-nav-toggle a.open-primary-nav {
-    display: none; }
-  #primary-nav:target #primary-nav-toggle a.close-primary-nav {
-    display: inline-block; }
   #result {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+    margin: 5px; } }
 
 nav {
   text-align: center;
