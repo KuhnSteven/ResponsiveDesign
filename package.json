@@ -1,0 +1,27 @@
+{
+  "name": "responsivedesign",
+  "version": "1.0.0",
+  "description": "DWS Week 2: Responsive Design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuhnSteven/ResponsiveDesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KuhnSteven/ResponsiveDesign/issues"
+  },
+  "homepage": "https://github.com/KuhnSteven/ResponsiveDesign#readme",
+  "dependencies": {
+    "global": "^4.3.2",
+    "gulp-cli": "^2.0.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

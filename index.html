@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- INDEX -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Index</title>
+
+<!-- RESPONSIVE NAV MENU FOR MOBILE SIZE-->
+    <nav id="primary-nav">
+        <div class="nav-container">
+            
+            <div id="primary-nav-toggle">
+                <a class="open-primary-nav" href="#primary-nav"><span><img src="hamburger.png" alt="Menu"></span></a>
+                <a class="close-primary-nav" href="#"><span><img src="hamburger.png" alt="Menu"></span></a>
+            </div>
+
+            <div class="wrap">
+                <ul class="nav-items" id="primary-nav-items">
+                    <li class="nav-item">
+                    <a a href="#" class="active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div> <!-- Wrap -->
+
+        </div> <!-- Navigation Container-->
+    </nav>
+
+    <!-- Desktop navigation -->
+    <nav id="desktop-nav">
+        <div class="nav-container">
+
+            <ul class="nav-items" id="desktop-nav-items">
+                <li class="nav-item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+</head>
+
+<body>
+    <header>
+        Book Search Engine
+    </header>
+    <form id="form">
+        <p>Please enter the title (including-hyphenation!) of the book you seek knowledge of.</p>
+        <textarea id="search" placeholder="The-Lord-Of-The-Rings"></textarea>
+        <br>
+        <button type="submit" id="searchBtn">Search</button>
+        <button type="reset">Reset</button>
+    </form>
+    <br>
+    <section id=results>
+    </section>
+
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+<!-- END OF FILE -->
+
+</html>

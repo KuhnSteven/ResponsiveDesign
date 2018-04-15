@@ -1,0 +1,36 @@
+@import '_variables.scss';
+/* PARTIAL #1 */
+#form {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	padding: 5px;
+	text-align: center;
+	background-color: $secondary-color;
+	font-size: $standard-font;
+	}
+
+#results {
+	display: block;
+	margin: 10px;
+	border: 2px solid black;
+	padding: 3px;
+	text-align: left;
+	float: left;
+	background-color: $secondary-color;
+	font-size: $standard-font;
+		h1 {
+			font-size: 2rem;
+			margin: 5px;
+		}
+		h2 {
+			font-size: 1.3rem;
+			margin: 2px;
+		}
+	}
+
+	article {
+		border: 2px dashed black;
+		background-color: $primary-color;
+	}
